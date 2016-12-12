@@ -1,0 +1,25 @@
+cpy 1 a
+cpy 1 b
+cpy 26 d
+jnz c 2
+jnz 1 5
+cpy 7 c
+
+add c d
+cpy 0 c
+
+cpy a c
+
+add b a
+cpy 0 b
+
+cpy c b
+dec d
+jnz d -6
+cpy 13 c
+cpy 14 d
+inc a
+dec d
+jnz d -2
+dec c
+jnz c -5
